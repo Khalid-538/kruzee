@@ -12,6 +12,12 @@ const config: Config = {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+          'driving-school': "url('https://kruzee.com/wp-content/themes/kruzee/assets/images/icons/laurels.png')",
+      },
+      fontFamily: {
+        sans: ['var(--font-inter)'],
+        mono: ['var(--font-roboto-mono)'],
+        bricolage: ['var(--font-bricolage-grotesque)'],
       },
     },
   },

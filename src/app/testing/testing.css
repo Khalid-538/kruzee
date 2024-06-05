@@ -1,0 +1,24 @@
+.testing-translate{
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+    transform: translate(50px, 100px);
+}
+.div-2{
+    width: 200px;
+    height: 200px;
+    background-color: aquamarine;
+    transition: width 3s ease-in;
+    animation-name: example;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+.div-2:hover {
+    width: 300px;
+}
+@keyframes example {
+    0%   {background-color: red;}
+  25%  {background-color: yellow;}
+  50%  {background-color: blue;}
+  100% {background-color: green;}
+}
