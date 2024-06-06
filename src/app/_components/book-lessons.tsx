@@ -17,8 +17,8 @@ function BookLessons() {
           See why thousands of students are choosing us for their driver’s
           education.
         </p>
-        <div className="flex flex-col md:flex-row md:justify-between ">
-          <div className="flex gap-4 justify-between">
+        <div className="md:mx-10 px-5 py-4 md:py-8 md:px-20  grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-[8rem]">
+          <div className="flex gap-10 md:pt-10">
             <div className="flex flex-col">
               <span className="text-[#37A2D0] text-base">STEP</span>
               <span className="before:block  before:absolute before:-inset-1 before:-skew-y-3 before:h-[75%] before:top-[10%] before:left-[2px] before:bg-[#eceff4] relative inline-block">
@@ -37,7 +37,14 @@ function BookLessons() {
             </div>
           </div>
           <div className="relative rounded-lg shadow-[_15px_15px_#b5ddef] border border-black">
-            <video width={600} height={400} controls autoPlay={true}>
+            <video
+              className="object-contain rounded-lg"
+              width={600}
+              height={400}
+              autoPlay
+              muted
+              loop
+            >
               {" "}
               <source
                 src="https://kruzee.com/wp-content/uploads/2024/02/Kruzee-Video-1-004-Revised-compressed.mp4"
