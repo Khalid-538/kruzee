@@ -4,7 +4,7 @@ function BookLessons() {
   return (
     <div className="container mt-8">
       <div className="flex flex-col">
-        <h1 className="font-bricolage  md:text-[4rem] font-extrabold text-center leading-[5rem]">
+        <h1 className="font-bricolage text-[3rem] md:text-[4rem] font-extrabold text-center leading-[5rem]">
           Book lessons <br />
           in three{" "}
           <span className="before:block  before:absolute before:-inset-1 before:-skew-y-3 before:h-[75%] before:top-[10%] before:left-[2px] before:bg-[#eceff4] relative inline-block">
